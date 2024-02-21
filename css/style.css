@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4%;
+    background: #000;
+}
+
+.header .logo {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+.header .logo span {
+    color: #f00;
+    text-decoration: none;
+}
+
+.header .navbar a {
+    display: inline-block;
+    padding: 17px 26px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navbar a:hover {
+    background: red;
+}
+
+body {
+    background: #000;
+}
+
+h2,
+h3 {
+    color: red;
+}
+
+p {
+    color: white;
+}
+
+table,
+td {
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 40%;
+}
+
+
+.about {
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #000;
+}
+
+.about img {
+    height: auto;
+    width: 420px;
+    /* margin: 50px;
+                padding: 100px; */
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    color: aliceblue;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: aliceblue;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #f9004d;
+}
+
+span {
+    color: #f9004d;
+}
+
+.about-text {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background: #000000;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background: red;
+    
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+footer p,
+h4 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(#505559, #C6CDD1);
+}

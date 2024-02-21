@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PKVL</title>
+    <style>
+        .back-video {
+            position: fixed;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            width: 100%;
+            height: 900px;
+
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 4%;
+            background: #000;
+        }
+
+        .header .logo {
+            font-weight: bolder;
+            color: #fff;
+            font-size: 34px;
+            text-decoration: none;
+            
+        }
+
+
+        .header .logo span {
+            color: #f00;
+            text-decoration: none;
+        }
+
+        .header .navbar a {
+            display: inline-block;
+            padding: 17px 26px;
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+
+
+        }
+
+        .header .navbar a:hover {
+            background: #f00;
+        }
+
+        .home .content {
+            width: 60rem;
+        }
+
+        
+
+        .home .content h3 {
+            font-size: 5rem;
+            color: #ffffff;
+            padding: 222px 81px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <section class="home">
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="Image/gym_video.MP4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h3>Make yourself stronger than your excuses</h3>
+        </div>
+    </section>
+
+
+    <div class="header">
+
+        <a href="home.html" class="logo"> <span>PKvL</span>FIT </a>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="features.html">Features</a>
+            <a href="Subscription.html">Subscription</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </div>
+
+
+</body>
+
+</html>
